@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -9,17 +13,40 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'VT323';
 }
 
 main{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+#title{
+    text-decoration: underline;
+}
+
+#counter{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #number{
     font-size: 6em;
+    text-align: center;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+#reset{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 button{
