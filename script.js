@@ -14,9 +14,6 @@ onload = function(){
     console.log(n)
 }
 
-
-
-
 // functions
 increase.addEventListener('click', function(){
     n = ++n
